@@ -26,7 +26,7 @@ application_file = 'example.csv'
 
 # TOGGLES
 SAVEENV = False #toggle, export conda environment
-PAUSES = False #True #toggle, pause before each step
+PAUSES = True #True #toggle, pause before each step
 
 #endregion
 
