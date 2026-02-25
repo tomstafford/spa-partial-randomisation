@@ -18,8 +18,8 @@ uses the conda environment defined in environment.yml
 # inputs THESE ARE THE ONLY BITS THAT NEED CHANGING
 
 # 1 THE BUDGET
-#budget = 3.3*1000*1000 #3.3 million
-budget = 0.5*1000*1000
+budget = 3.3*1000*1000 #3.3 million
+
 #2 APPLICATION FILE
 application_file = 'example.csv'
 
@@ -135,7 +135,7 @@ df['weight'] = 1
 #df['weight] should be 2 if career-level is "mid", 1 otherwise
 # iterate over df, set weight to 2 if career-level is "mid"
 for index, row in df.iterrows():
-    if row['career-level'][:3] == 'mid':
+    if row['career-level'][:3] == 'Ear':
         df.loc[index, 'weight'] = 2
 
 
